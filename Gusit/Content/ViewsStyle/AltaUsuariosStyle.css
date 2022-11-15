@@ -1,0 +1,82 @@
+﻿.letras {
+    color: #3D854D;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.cajaGris {
+    background: #D9D9D9;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaVerde {
+    background: #D5EFDC;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frmRegistro{
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    color: #3D854D;
+    width: 216px;
+    height: 35px;
+    border: solid #3D854D;
+}
+
+.btnVerde {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    background: #3D854D;
+    border: solid #3D854D ;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 135px;
+    height: 37px;
+    font-weight: bold;
+}
+
+.btnVerde:hover {
+    cursor: pointer;
+    color: #3D854D;
+    background: #DAC5DA;
+    font-weight: bold;
+    border: solid #3D854D;
+}
+
+.btnCancelar {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 135px;
+    height: 37px;
+    font-weight: bold;
+}
+
+.btnCancelar:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #FFFFFF;
+    font-weight: bold;
+    border: solid #000000;
+}
+
+@media only screen and (max-width: 1400px){
+    .cajaGris {
+        width: 600px;
+        height: 40px;
+    }
+    .row{
+        justify-content:center;
+    }
+}

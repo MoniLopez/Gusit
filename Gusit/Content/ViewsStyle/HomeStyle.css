@@ -1,0 +1,56 @@
+﻿.circuloAzul {
+    background: #CCDCF7;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    color: #3D5185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circuloVerde {
+    background: #D5EFDC;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    color: #3D854D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circuloRosa {
+    background: #F3E3F3;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    color: #853D75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letras {
+    font-family: 'Century Gothic';
+    font-size: 55px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .circuloAzul {
+        width: 173px;
+        height: 173px;
+    }
+    .circuloVerde {
+        width: 173px;
+        height: 173px;
+    }
+    .circuloRosa {
+        width: 173px;
+        height: 173px;
+    }
+    .letras {
+        font-size: 35px;
+    }
+    
+}
